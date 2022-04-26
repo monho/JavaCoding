@@ -9,6 +9,6 @@ public class AminusB {
 
         System.out.println(A-B);
 
-        in.close();
+        in.close();  //필수 사항은 아니지만 닫는걸 꼭 적극 권장한다.  ex 리소스 누수...
     }
 }
